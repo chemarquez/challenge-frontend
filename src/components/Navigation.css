@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-list li {
+    list-style: none;
+  }
+  
+  .navbar-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,52 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.navigation {
+  background-color: #4caf50;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.home-container,
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.responsive-card {
+  width: 100%;
+  max-width: 800px; 
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .responsive-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-card {
+    width: 100%;
+  }
+}
